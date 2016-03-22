@@ -870,6 +870,7 @@
     [self.btnTitle setImageEdgeInsets:UIEdgeInsetsMake(5, 0, 0, 0)];
     [self.btnTitle setTitleEdgeInsets:UIEdgeInsetsMake(5, 0, 0, 0)];
     [self.btnTitle layoutIfNeeded];
+    self.btnTitle.titleLabel.font = [UIFont systemFontOfSize:15];
 }
 - (void)menuArrowRotate
 {
